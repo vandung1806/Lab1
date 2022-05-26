@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<BookOrder OrderNo="1234"
+        xmlns ="http://www.superduperbigco.com/"
+        xmlns:mybook ="http://www.superduperbigco.com/">
+    <OrderDate>2001-01-01</OrderDate>
+    <customer>
+        <title>Mr.</title>
+        <fristName>Graeme</fristName>
+        <lastName>Malcolm</lastName>
+    </customer>
+    <mybook:book>
+        <title>Treasure Island</title>
+        <author>Robert Louis Stevenson</author>
+    </mybook:book>
+</BookOrder>
